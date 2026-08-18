@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LƯƠNG Farm Gà Mini</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f6f3ed;color:#222}
+header{background:#1d2a20;color:#fff;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+.logo{font-size:22px;font-weight:bold}.logo span{color:#d8a33c}nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{background:#1d2a20;color:#fff;padding:70px 5%}.hero-in{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+h1{font-size:46px;margin:0 0 15px}.hero p{font-size:18px;line-height:1.6;color:#d7ddd7}.btn{display:inline-block;background:#d8a33c;color:#171b17;padding:13px 20px;border-radius:8px;text-decoration:none;font-weight:bold}
+.preview{height:300px;border-radius:18px;background:linear-gradient(145deg,#6e502c,#e1bf72,#4a3825);display:flex;align-items:center;justify-content:center;font-size:100px}
+section{max-width:1100px;margin:auto;padding:55px 5%}.title{text-align:center;margin-bottom:30px}.title h2{font-size:32px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 5px 20px #0001}.pic{height:210px;background:linear-gradient(145deg,#a78349,#e8d29c);display:flex;align-items:center;justify-content:center;font-size:70px}.body{padding:18px}.body h3{margin:0 0 10px}.meta{line-height:1.7;color:#666}.price{font-size:21px;font-weight:bold;color:#96630b;margin:10px 0}.card .btn{width:100%;text-align:center}
+.info{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.box{background:#fff;padding:25px;border-radius:14px;text-align:center}.box b{display:block;margin:10px}
+.contact{background:#1d2a20;color:#fff;border-radius:18px;padding:35px;display:grid;grid-template-columns:1fr 1fr;gap:30px}.contact input,.contact textarea{width:100%;padding:13px;margin:0 0 12px;border:0;border-radius:8px}.contact textarea{height:100px}.contact button{border:0;cursor:pointer}
+footer{text-align:center;background:#111710;color:#bbb;padding:25px}
+@media(max-width:800px){.hero-in,.contact{grid-template-columns:1fr}.grid,.info{grid-template-columns:1fr}nav{display:none}h1{font-size:36px}}
+</style>
+</head>
+<body>
+<header><div class="logo">🐓 LƯƠNG <span>FARM GÀ MINI</span></div><nav><a href="#gà">Gà đang bán</a><a href="#about">Giới thiệu</a><a href="#contact">Liên hệ</a></nav></header>
+<div class="hero"><div class="hero-in"><div><h1>Gà khỏe – form đẹp – thông tin rõ ràng</h1><p>Website mẫu để giới thiệu và bán gà. Khách có thể xem mã gà, cân nặng, đặc điểm và liên hệ đặt mua.</p><a class="btn" href="#gà">Xem gà đang bán</a></div><div class="preview">🐓</div></div></div>
+<section id="gà"><div class="title"><h2>Gà đang bán</h2><p>Thông tin dưới đây là dữ liệu mẫu, có thể thay bằng gà thật của bạn.</p></div>
+<div class="grid">
+<div class="card"><div class="pic">🐓</div><div class="body"><h3>Gà #GK-001</h3><div class="meta">Khét chân vàng<br>3,1 kg · 12 tháng</div><div class="price">3.500.000đ</div><a class="btn" href="#contact">Hỏi mua</a></div></div>
+<div class="card"><div class="pic">🐔</div><div class="body"><h3>Gà #GK-002</h3><div class="meta">Gà que<br>2,8 kg · 10 tháng</div><div class="price">2.800.000đ</div><a class="btn" href="#contact">Hỏi mua</a></div></div>
+<div class="card"><div class="pic">🐓</div><div class="body"><h3>Gà #GK-003</h3><div class="meta">Gà chuối<br>3,0 kg · 11 tháng</div><div class="price">3.200.000đ</div><a class="btn" href="#contact">Hỏi mua</a></div></div>
+</div></section>
+<section id="about"><div class="title"><h2>Thông tin trại</h2></div><div class="info">
+<div class="box">📷<b>Ảnh/video thực tế</b>Khách xem đúng con trước khi mua.</div>
+<div class="box">⚖️<b>Thông tin rõ ràng</b>Cân nặng và đặc điểm từng con.</div>
+<div class="box">📍<b>Khu vực giao nhận</b>Hớn Quản, Bình Phước và khu vực thỏa thuận.</div>
+</div></section>
+<section id="contact"><div class="contact"><div><h2>Liên hệ đặt mua</h2><p>📞 09xx xxx xxx</p><p>💬 Zalo: 09xx xxx xxx</p><p>📍 Hớn Quản, Bình Phước</p></div><form onsubmit="event.preventDefault();alert('Đây là bản website mẫu. Có thể kết nối form này với Zalo, email hoặc hệ thống nhận đơn.');"><input placeholder="Tên của bạn" required><input placeholder="Số điện thoại" required><textarea placeholder="Bạn quan tâm mã gà nào?"></textarea><button class="btn">Gửi yêu cầu</button></form></div></section>
+<footer>© 2026 LƯƠNG Farm Gà Mini · Website mẫu</footer>
+</body></html>
